@@ -38,8 +38,8 @@ input으로 받아온 값은 이를 의미한다
 
 ### 2. 풀이
 
-숫자i를 n진수 값 문자열로 return 해주는 함수를 이용해 
+숫자i를 n진수 값 문자열로 return 해주는 함수를 이용해 해결
 
 ```String java.lang.Integer.toString(int i, int radix)```
 
-mt 의 문자열을 만들어 놓고 (p-1) + im (0 <= i < t)번째 값을 가져와 붙여 return해주었다.
+길이 mt 의 문자열을 만들어 놓고 (p-1) + im (0 <= i < t)번째 값을 가져와 붙여 return해주었다.
